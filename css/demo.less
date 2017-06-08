@@ -1,0 +1,354 @@
+@import url(reset.css);
+.full(@w,@h,@bg){
+    width:@w;
+    height:@h;
+    background: @bg;
+}
+.box(@dir:horizontal){
+    display: -webkit-box;
+    -webkit-box-orient: @dir;
+}
+html,body,.container{
+    width:100%;
+    height:100%;
+    overflow: hidden;
+}
+.container{
+    .box(vertical);
+    header{
+        .full(100%,3.13rem,null);
+        background: url(../img/bg-24.png) no-repeat;
+        background-size: 100% auto;
+        -webkit-box-align: center;
+        .box(vertical);
+        .headerpic{
+            margin-top: 0.33rem;
+            img{
+                .full(1.55rem,auto,none);
+            }
+        }
+        .dl{
+            margin-top: 0.4rem;
+            font-size: 0.3rem;
+            a{
+                color: #fff;
+                letter-spacing: 0.05rem;
+            }
+        }
+        .sz{
+            .full(1.78rem,0.9rem,none);
+            position: absolute;
+            top: 0;
+            right: 0;
+            .ld{
+                .full(0.4rem,auto,none);
+                margin-top: 0.22rem;
+            }
+            .she{
+                .full(0.39rem,auto,none);
+                margin-left: 0.55rem;
+            }
+            .qu{
+                position: absolute;
+                left: 0.23rem;
+                top: 0.1rem;
+                width: 0.27rem;
+                
+            }
+        }
+        .num{
+            .full(1.76rem,0.46rem,none);
+            background: url(../img/bg5.png) no-repeat;
+            position: absolute;
+            top: 1rem;
+            right: 0;
+            background-size: 100% auto ;
+            .jf{
+                font-size: 0.24rem;
+                padding-left: 0.14rem;
+                color: #fff;
+                margin-top: 0.1rem;
+            }
+            .shu{
+                padding-left: 0.25rem;
+                font-size: 0.2rem;
+                color: #fff;
+                background: url(../img/back-2.png) no-repeat right center;
+                background-size: 0.11rem auto ;
+                padding-right: 0.37rem;
+            }
+        }
+       //第2个页面
+       .update{
+           color: #fff;
+           font-size: 0.23rem;
+           background: url(../img/qianbi.png) no-repeat right center;
+           background-size: 0.34rem;
+           padding-right: 0.5rem;
+       } 
+       .cheng{
+           .full(2.48rem,0.47rem,#fff2df);
+           margin-top: 0.14rem;
+           border-radius: 5px ;
+           span{
+               text-align: center;
+               display: block;
+               font-size: 0.25rem;
+               color: #ff7e02;
+               background: url(../img/v5.png) no-repeat left center;
+               background-size: 0.26rem;
+               margin-left: 0.18rem;
+               margin-top: 0.08rem;
+           }
+       }
+    }
+    section{
+        -webkit-box-flex: 1;
+        background: #f3f3f3;
+        overflow: auto;
+        .dd{   
+            .full(100%,1.58rem,#fff);        
+            .fenl{
+                padding-top: 0.2rem;
+                .full(100%,1.13rem,#fff);
+                .box;
+                .left{
+                    .full(2.53rem,1.13rem,#fff);
+                    -webkit-box-align: center;
+                    border-right: 1px solid #e6e6e6;
+                    ul{
+                        text-align: center;                      
+                        li{                            
+                            .eye{
+                                .full(0.6rem,auto,none);
+                                margin-top: 0.13rem;
+                            }
+                            &.cai{
+                                margin-top: 0.17rem;
+                                font-size: 0.27rem;
+                                color: #333333;
+                            }
+                        }
+                    }
+                }
+                .fs{
+                    .full(2.38rem,1.13rem,#fff);
+                    border-right: 1px solid #e6e6e6;
+                    ul{
+                        text-align: center;
+                        li{
+                            &.ss{
+                               margin-top: 0.2rem; 
+                               font-size: 0.25rem;
+                            }
+                            &.si{
+                               margin-top: 0.17rem; 
+                               font-size: 0.27rem;
+                             color: #333333;
+                            }
+                        }
+                    }
+                }
+                .right{
+               .full(2.53rem,1.13rem,#fff);
+               ul{
+                   text-align: center;
+                   
+                   li{
+                       .guan{
+                           .full(0.5rem,auto,none);
+                           margin-top: 0.1rem;
+                       }
+                       &.qq{
+                           margin-top: 0.15rem;
+                           font-size: 0.28rem;
+                           color: #333333;
+                       }
+                   }
+               }
+           }
+            }
+           
+        }
+        .man{
+            .full(100%,0.85rem,#fff);
+            margin-top: 0.15rem;
+            border-bottom: 1px solid #e5e5e5;
+            .box;
+            h3{
+                line-height: 0.85rem;
+                background: url(../img/jifen.png) no-repeat 0.4rem center;
+                background-size: 0.32rem auto ;
+                padding-left: 0.92rem;
+                font-size: 0.27rem;
+                color: #6e6e6e;              
+            }
+            .ww{
+              width:0.28rem;
+              margin-top: 0.12rem;
+            }
+            .sp{
+                .full(1.33rem,0.58rem,#bababa);
+                display: inline-block;
+                margin-left: 3.08rem;
+                margin-top: 0.14rem;
+                border-radius: 0.05rem;
+                line-height: 0.58rem;
+                font-size: 0.26rem;
+                color: #fff;
+                padding-left: 0.15rem;
+            }
+        }
+        .man3{
+            .full(100%,0.85rem,#fff);
+            margin-top: 0.15rem;
+            border-bottom: 1px solid #e5e5e5;
+           .box;
+            h3{
+                line-height: 0.85rem;
+                background: url(../img/jifen.png) no-repeat 0.4rem center;
+                background-size: 0.32rem auto ;
+                padding-left: 0.92rem;
+                font-size: 0.27rem;
+                color: #6e6e6e; 
+                -webkit-box-flex: 1;             
+            }
+            a{
+                .back{
+                   background-size: 0.52rem auto ; 
+                   margin-right: 0.7rem;
+                   margin-top: 0.3rem;
+                   width:0.12rem;
+                }
+            }
+        }
+        .man4{
+            .full(100%,0.85rem,#fff);
+           
+            border-bottom: 1px solid #e5e5e5;
+           .box;
+            h3{
+                line-height: 0.85rem;
+                background: url(../img/jifen.png) no-repeat 0.4rem center;
+                background-size: 0.32rem auto ;
+                padding-left: 0.92rem;
+                font-size: 0.27rem;
+                color: #6e6e6e; 
+                -webkit-box-flex: 1;             
+            }
+            a{
+                .back{
+                   background-size: 0.52rem auto ; 
+                   margin-right: 0.7rem;
+                   margin-top: 0.3rem;
+                   width:0.12rem;
+                }
+            }
+        }
+        .man1{
+            .full(100%,0.85rem,#fff);
+          .box;
+            border-bottom: 1px solid #e5e5e5;
+            h3{
+                line-height: 0.85rem;
+                background: url(../img/friend.png) no-repeat 0.4rem center;
+                background-size: 0.32rem auto ;
+                padding-left: 0.92rem;
+                font-size: 0.27rem;
+                color: #6e6e6e;              
+            }
+            span{
+                display: inline-block;
+                padding-top: 0.3rem;
+                padding-left: 0.1rem;
+                font-size: 0.23rem;
+                color: #999999;
+                background: url(../img/back-2.png) no-repeat right 0.3rem;
+                padding-right: 2.2rem;
+                background-size: 0.12rem auto ;
+            }           
+        }
+        .man2{
+            .full(100%,0.85rem,#fff);
+          .box;
+            border-bottom: 1px solid #e5e5e5;
+            h3{
+                line-height: 0.85rem;
+                background: url(../img/pen-01.png) no-repeat 0.4rem center;
+                background-size: 0.32rem auto ;
+                padding-left: 0.92rem;
+                font-size: 0.27rem;
+                color: #6e6e6e;
+                            
+            }
+            span{
+                 -webkit-box-flex: 1; 
+                display: inline-block;
+                padding-top: 0.3rem;
+                padding-left: 0.1rem;
+                font-size: 0.23rem;
+                color: #999999;
+               
+                background: url(../img/back-2.png) no-repeat right 0.3rem;
+                padding-right: 3.98rem;
+                background-size: 0.12rem auto ;
+            }
+            
+        }
+    }
+    footer{
+        .full(100%,0.97rem,#fff);
+        .box;
+        .cc{
+          -webkit-box-flex: 1;
+             text-align: center;    
+          a{
+              
+              display: block;
+              margin: 0 auto;
+              .full(0.43rem,0.43rem,yellow);
+              background: url(../img/jiang.png) no-repeat;
+              background-size: 0.43rem auto;
+              margin-top: 0.1rem;
+          } 
+          p{
+              color: #b0b0b0;
+              font-size: 0.23rem;
+          }       
+        }
+        .fax{
+            -webkit-box-flex: 1; 
+            text-align: center;  
+            a{
+              
+              display: block;
+              margin: 0 auto;
+              .full(0.43rem,0.43rem,yellow);
+              background: url(../img/faxian.png) no-repeat;
+              background-size: 0.43rem auto;
+              margin-top: 0.1rem;
+          }
+          p{
+              color: #b0b0b0;
+              font-size: 0.23rem;
+          }    
+        }
+        .me{
+            -webkit-box-flex: 1;
+            text-align: center;
+            a{
+              
+              display: block;
+              margin: 0 auto;
+              .full(0.43rem,0.43rem,none);
+              background:  url(../img/ren.png) no-repeat;
+              background-size: 0.43rem auto;
+              margin-top: 0.1rem;
+          }   
+          p{
+              color: #f9384b;
+              font-size: 0.23rem;
+          }   
+        }
+    }
+}

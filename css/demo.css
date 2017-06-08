@@ -1,0 +1,383 @@
+@import url(reset.css);
+html,
+body,
+.container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.container {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.container header {
+  width: 100%;
+  height: 3.13rem;
+  background: null;
+  background: url(../img/bg-24.png) no-repeat;
+  background-size: 100% auto;
+  -webkit-box-align: center;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.container header .headerpic {
+  margin-top: 0.33rem;
+}
+.container header .headerpic img {
+  width: 1.55rem;
+  height: auto;
+  background: none;
+}
+.container header .dl {
+  margin-top: 0.4rem;
+  font-size: 0.3rem;
+}
+.container header .dl a {
+  color: #fff;
+  letter-spacing: 0.05rem;
+}
+.container header .sz {
+  width: 1.78rem;
+  height: 0.9rem;
+  background: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.container header .sz .ld {
+  width: 0.4rem;
+  height: auto;
+  background: none;
+  margin-top: 0.22rem;
+}
+.container header .sz .she {
+  width: 0.39rem;
+  height: auto;
+  background: none;
+  margin-left: 0.55rem;
+}
+.container header .sz .qu {
+  position: absolute;
+  left: 0.23rem;
+  top: 0.1rem;
+  width: 0.27rem;
+}
+.container header .num {
+  width: 1.76rem;
+  height: 0.46rem;
+  background: none;
+  background: url(../img/bg5.png) no-repeat;
+  position: absolute;
+  top: 1rem;
+  right: 0;
+  background-size: 100% auto ;
+}
+.container header .num .jf {
+  font-size: 0.24rem;
+  padding-left: 0.14rem;
+  color: #fff;
+  margin-top: 0.1rem;
+}
+.container header .num .shu {
+  padding-left: 0.25rem;
+  font-size: 0.2rem;
+  color: #fff;
+  background: url(../img/back-2.png) no-repeat right center;
+  background-size: 0.11rem auto ;
+  padding-right: 0.37rem;
+}
+.container header .update {
+  color: #fff;
+  font-size: 0.23rem;
+  background: url(../img/qianbi.png) no-repeat right center;
+  background-size: 0.34rem;
+  padding-right: 0.5rem;
+}
+.container header .cheng {
+  width: 2.48rem;
+  height: 0.47rem;
+  background: #fff2df;
+  margin-top: 0.14rem;
+  border-radius: 5px ;
+}
+.container header .cheng span {
+  text-align: center;
+  display: block;
+  font-size: 0.25rem;
+  color: #ff7e02;
+  background: url(../img/v5.png) no-repeat left center;
+  background-size: 0.26rem;
+  margin-left: 0.18rem;
+  margin-top: 0.08rem;
+}
+.container section {
+  -webkit-box-flex: 1;
+  background: #f3f3f3;
+  overflow: auto;
+}
+.container section .dd {
+  width: 100%;
+  height: 1.58rem;
+  background: #ffffff;
+}
+.container section .dd .fenl {
+  padding-top: 0.2rem;
+  width: 100%;
+  height: 1.13rem;
+  background: #ffffff;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.container section .dd .fenl .left {
+  width: 2.53rem;
+  height: 1.13rem;
+  background: #ffffff;
+  -webkit-box-align: center;
+  border-right: 1px solid #e6e6e6;
+}
+.container section .dd .fenl .left ul {
+  text-align: center;
+}
+.container section .dd .fenl .left ul li .eye {
+  width: 0.6rem;
+  height: auto;
+  background: none;
+  margin-top: 0.13rem;
+}
+.container section .dd .fenl .left ul li.cai {
+  margin-top: 0.17rem;
+  font-size: 0.27rem;
+  color: #333333;
+}
+.container section .dd .fenl .fs {
+  width: 2.38rem;
+  height: 1.13rem;
+  background: #ffffff;
+  border-right: 1px solid #e6e6e6;
+}
+.container section .dd .fenl .fs ul {
+  text-align: center;
+}
+.container section .dd .fenl .fs ul li.ss {
+  margin-top: 0.2rem;
+  font-size: 0.25rem;
+}
+.container section .dd .fenl .fs ul li.si {
+  margin-top: 0.17rem;
+  font-size: 0.27rem;
+  color: #333333;
+}
+.container section .dd .fenl .right {
+  width: 2.53rem;
+  height: 1.13rem;
+  background: #ffffff;
+}
+.container section .dd .fenl .right ul {
+  text-align: center;
+}
+.container section .dd .fenl .right ul li .guan {
+  width: 0.5rem;
+  height: auto;
+  background: none;
+  margin-top: 0.1rem;
+}
+.container section .dd .fenl .right ul li.qq {
+  margin-top: 0.15rem;
+  font-size: 0.28rem;
+  color: #333333;
+}
+.container section .man {
+  width: 100%;
+  height: 0.85rem;
+  background: #ffffff;
+  margin-top: 0.15rem;
+  border-bottom: 1px solid #e5e5e5;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.container section .man h3 {
+  line-height: 0.85rem;
+  background: url(../img/jifen.png) no-repeat 0.4rem center;
+  background-size: 0.32rem auto ;
+  padding-left: 0.92rem;
+  font-size: 0.27rem;
+  color: #6e6e6e;
+}
+.container section .man .ww {
+  width: 0.28rem;
+  margin-top: 0.12rem;
+}
+.container section .man .sp {
+  width: 1.33rem;
+  height: 0.58rem;
+  background: #bababa;
+  display: inline-block;
+  margin-left: 3.08rem;
+  margin-top: 0.14rem;
+  border-radius: 0.05rem;
+  line-height: 0.58rem;
+  font-size: 0.26rem;
+  color: #fff;
+  padding-left: 0.15rem;
+}
+.container section .man3 {
+  width: 100%;
+  height: 0.85rem;
+  background: #ffffff;
+  margin-top: 0.15rem;
+  border-bottom: 1px solid #e5e5e5;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.container section .man3 h3 {
+  line-height: 0.85rem;
+  background: url(../img/jifen.png) no-repeat 0.4rem center;
+  background-size: 0.32rem auto ;
+  padding-left: 0.92rem;
+  font-size: 0.27rem;
+  color: #6e6e6e;
+  -webkit-box-flex: 1;
+}
+.container section .man3 a .back {
+  background-size: 0.52rem auto ;
+  margin-right: 0.7rem;
+  margin-top: 0.3rem;
+  width: 0.12rem;
+}
+.container section .man4 {
+  width: 100%;
+  height: 0.85rem;
+  background: #ffffff;
+  border-bottom: 1px solid #e5e5e5;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.container section .man4 h3 {
+  line-height: 0.85rem;
+  background: url(../img/jifen.png) no-repeat 0.4rem center;
+  background-size: 0.32rem auto ;
+  padding-left: 0.92rem;
+  font-size: 0.27rem;
+  color: #6e6e6e;
+  -webkit-box-flex: 1;
+}
+.container section .man4 a .back {
+  background-size: 0.52rem auto ;
+  margin-right: 0.7rem;
+  margin-top: 0.3rem;
+  width: 0.12rem;
+}
+.container section .man1 {
+  width: 100%;
+  height: 0.85rem;
+  background: #ffffff;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  border-bottom: 1px solid #e5e5e5;
+}
+.container section .man1 h3 {
+  line-height: 0.85rem;
+  background: url(../img/friend.png) no-repeat 0.4rem center;
+  background-size: 0.32rem auto ;
+  padding-left: 0.92rem;
+  font-size: 0.27rem;
+  color: #6e6e6e;
+}
+.container section .man1 span {
+  display: inline-block;
+  padding-top: 0.3rem;
+  padding-left: 0.1rem;
+  font-size: 0.23rem;
+  color: #999999;
+  background: url(../img/back-2.png) no-repeat right 0.3rem;
+  padding-right: 2.2rem;
+  background-size: 0.12rem auto ;
+}
+.container section .man2 {
+  width: 100%;
+  height: 0.85rem;
+  background: #ffffff;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  border-bottom: 1px solid #e5e5e5;
+}
+.container section .man2 h3 {
+  line-height: 0.85rem;
+  background: url(../img/pen-01.png) no-repeat 0.4rem center;
+  background-size: 0.32rem auto ;
+  padding-left: 0.92rem;
+  font-size: 0.27rem;
+  color: #6e6e6e;
+}
+.container section .man2 span {
+  -webkit-box-flex: 1;
+  display: inline-block;
+  padding-top: 0.3rem;
+  padding-left: 0.1rem;
+  font-size: 0.23rem;
+  color: #999999;
+  background: url(../img/back-2.png) no-repeat right 0.3rem;
+  padding-right: 3.98rem;
+  background-size: 0.12rem auto ;
+}
+.container footer {
+  width: 100%;
+  height: 0.97rem;
+  background: #ffffff;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.container footer .cc {
+  -webkit-box-flex: 1;
+  text-align: center;
+}
+.container footer .cc a {
+  display: block;
+  margin: 0 auto;
+  width: 0.43rem;
+  height: 0.43rem;
+  background: #ffff00;
+  background: url(../img/jiang.png) no-repeat;
+  background-size: 0.43rem auto;
+  margin-top: 0.1rem;
+}
+.container footer .cc p {
+  color: #b0b0b0;
+  font-size: 0.23rem;
+}
+.container footer .fax {
+  -webkit-box-flex: 1;
+  text-align: center;
+}
+.container footer .fax a {
+  display: block;
+  margin: 0 auto;
+  width: 0.43rem;
+  height: 0.43rem;
+  background: #ffff00;
+  background: url(../img/faxian.png) no-repeat;
+  background-size: 0.43rem auto;
+  margin-top: 0.1rem;
+}
+.container footer .fax p {
+  color: #b0b0b0;
+  font-size: 0.23rem;
+}
+.container footer .me {
+  -webkit-box-flex: 1;
+  text-align: center;
+}
+.container footer .me a {
+  display: block;
+  margin: 0 auto;
+  width: 0.43rem;
+  height: 0.43rem;
+  background: none;
+  background: url(../img/ren.png) no-repeat;
+  background-size: 0.43rem auto;
+  margin-top: 0.1rem;
+}
+.container footer .me p {
+  color: #f9384b;
+  font-size: 0.23rem;
+}

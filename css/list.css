@@ -1,0 +1,208 @@
+@import url(reset.css);
+html,
+body,
+.container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.container {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.container header {
+  width: 100%;
+  height: 0.89rem;
+  background: #fa3f52;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+  text-align: center;
+}
+.container header h3 {
+  -webkit-box-flex: 1;
+  text-align: center;
+  font-size: 0.33rem;
+  color: #fff;
+  font-weight: normal;
+  background: url(../img/fx.png) no-repeat 0.4rem center;
+  background-size: 0.34rem;
+}
+.container section {
+  -webkit-box-flex: 1;
+  background: #f3f3f3;
+}
+.container section .szhi {
+  margin-top: 0.8rem;
+}
+.container section .szhi .pp {
+  width: 6.70rem;
+  padding: 0 0.4rem;
+  font-size: 0.3rem;
+  color: #999999;
+  line-height: 0.37rem;
+  letter-spacing: 0.02rem;
+}
+.container section .szhi .pp .zh {
+  list-style: none;
+  color: #343434;
+}
+.container section .szhi .pp .tel {
+  list-style: none;
+  color: #343434;
+}
+.container section .psd {
+  width: 100%;
+  height: 0.86rem;
+  background: #ffffff;
+  margin-top: 0.1rem;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+  border-bottom: 1px solid #f3f3f3;
+}
+.container section .psd h4 {
+  -webkit-box-flex: 1;
+  font-size: 0.27rem;
+  color: #2c2c2c;
+  font-weight: normal;
+  padding-left: 0.4rem;
+}
+.container section .psd a .fan {
+  width: 0.13rem;
+  margin-right: 0.4rem;
+}
+.container section .xie {
+  width: 100%;
+  height: 0.92rem;
+  background: #ffffff;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+  border-bottom: 1px solid #f3f3f3;
+}
+.container section .xie h4 {
+  -webkit-box-flex: 1;
+  font-size: 0.27rem;
+  color: #2c2c2c;
+  font-weight: normal;
+  padding-left: 0.4rem;
+}
+.container section .xie a .fan {
+  width: 0.13rem;
+  margin-right: 0.4rem;
+}
+.container section .ter {
+  width: 100%;
+  height: 0.92rem;
+  background: #ffffff;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+}
+.container section .ter h4 {
+  -webkit-box-flex: 1;
+  font-size: 0.27rem;
+  color: #2c2c2c;
+  font-weight: normal;
+  padding-left: 0.4rem;
+}
+.container section .ter .sp1 {
+  padding-right: 0.4rem;
+  font-size: 0.25rem;
+  color: #636363;
+}
+.container section .tui {
+  width: auto;
+  height: 0.88rem;
+  background: #f9384b;
+  margin-top: 2.57rem;
+  margin: 2.57rem 0.4rem 0 0.4rem;
+  border-radius: 0.1rem;
+  -webkit-box-align: center;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-flex: 1;
+}
+.container section .tui .chu {
+  display: block;
+  -webkit-box-flex: 1;
+  text-align: center;
+  font-size: 0.3rem;
+  color: #fff;
+}
+.cook {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.cook .kie {
+  width: 4.5rem;
+  height: 2.4rem;
+  background: #ffffff;
+  position: absolute;
+  left: 50%;
+  margin-left: -2.25rem;
+  top: 50%;
+  margin-top: -3.6rem;
+  border-radius: 0.15rem;
+}
+.cook .kie .ff {
+  width: 4.5rem;
+  height: 1.5rem;
+  background: #ffffff;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-flex: 1;
+  -webkit-box-align: center;
+  border-bottom: 2px solid #f5f5f5;
+}
+.cook .kie .ff .hc {
+  display: block;
+  -webkit-box-flex: 1;
+  text-align: center;
+  font-size: 0.28rem;
+  color: #2f2f2f;
+}
+.cook .kie .bum {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.cook .kie .bum .sure {
+  width: 2.23rem;
+  height: 0.72rem;
+  background: #ffffff;
+  margin-top: 0.1rem;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+  border-right: 1px solid #efefef;
+}
+.cook .kie .bum .sure .dd {
+  text-align: center;
+  -webkit-box-flex: 1;
+  display: block;
+  font-size: 0.27rem;
+  color: #323232;
+}
+.cook .kie .bum .que {
+  width: 2.23rem;
+  height: 0.72rem;
+  background: #ffffff;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  margin-top: 0.1rem;
+  -webkit-box-align: center;
+}
+.cook .kie .bum .que .dd1 {
+  text-align: center;
+  -webkit-box-flex: 1;
+  display: block;
+  font-size: 0.27rem;
+  color: #f49a12;
+}
